@@ -39,6 +39,7 @@ inline constexpr size_t STREAMER_LOG_MAX_SIZE = 1024;
     #define LogWarn(...)         STREAMER_LOG("WRN", __SHORT_FILE__, __VA_ARGS__)
     #define LogErr(...)          STREAMER_LOG("ERR", __SHORT_FILE__, __VA_ARGS__)
     #define DebugErr(fmt, ...)   LogErr("%s:%d-" fmt, __FUNCTION__, __LINE__, ##__VA_ARGS__)
+    #define DebugErr1(fmt, ...)   LogErr("%s:%d-" fmt, __FUNCTION__, __LINE__, ##__VA_ARGS__)
 
     #define STREAMER_LOG(sev, fname, ...) do { char szBuf[STREAMER_LOG_MAX_SIZE]; \
         (void)snprintf(szBuf, sizeof(szBuf), __VA_ARGS__); \
