@@ -43,6 +43,9 @@ inline constexpr size_t STREAMER_LOG_MAX_SIZE = 1024;
     #define LogInfo1(...)         STREAMER_LOG("INF", __SHORT_FILE__, __VA_ARGS__)
     #define LogInfo2(...)         STREAMER_LOG("INF", __SHORT_FILE__, __VA_ARGS__)
     #define LogInfo1345(...)         STREAMER_LOG("INF", __SHORT_FILE__, __VA_ARGS__)
+    #define LogInfo1345(...)         STREAMER_LOG("INF", __SHORT_FILE__, __VA_ARGS__)
+    #define LogInfo1345(...)         STREAMER_LOG("INF", __SHORT_FILE__, __VA_ARGS__)
+    #define LogInfo1345(...)         STREAMER_LOG("INF", __SHORT_FILE__, __VA_ARGS__)
 
     #define LogWarn(...)         STREAMER_LOG("WRN", __SHORT_FILE__, __VA_ARGS__)
     #define LogWarn1(...)         STREAMER_LOG("WRN", __SHORT_FILE__, __VA_ARGS__)
