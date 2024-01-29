@@ -51,6 +51,8 @@ inline constexpr size_t STREAMER_LOG_MAX_SIZE = 1024;
     } while(false)
 
     void LogMsg(const char* prefix, const char* fname, const char* logmsg);
+    void LogMsg1(const char* prefix, const char* fname, const char* logmsg);
+    void LogMsg2(const char* prefix, const char* fname, const char* logmsg);
 #endif
 
 #endif /* STREAMER_LOGGER_H_ */
